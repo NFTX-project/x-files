@@ -1,3 +1,5 @@
+# General Overview (for Auditors)
+
 Although I have been programming for years, I only started working with Solidity about four months ago. I have not gotten around to documenting the code yet, so please feel free to hit me up at anytime if you have questions. Below I will give a high level overview of how things work.
 
 NFTX is a project for making ERC20 tokens that are backed by NFTs. For example, there will be a PUNK-ZOMBIE token which is backed by zombie cryptopunks. Anyone can mint PUNK-ZOMBIE by transfering a zombie cryptopunk, and anyone can redeem a random zombie cryptopunk by transfering 1 PUNK-ZOMBIE. The name I use for these ERC20 tokens on NFTX are "XTokens".
