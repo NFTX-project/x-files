@@ -48,10 +48,15 @@ Every vault also has a "supplierBounty". The purpose of supplier bounties is to 
 As an example, let's say the supplierBounty for a PUNK-ZOMBIE token is (ethMax: 20, length: 5).
 
 Supply is 6. Alice burns 1. 0 added cost.
+
 Supply is 5. Alice burns 1. 4 ETH added cost.
+
 Supply is 4. Alice burns 1. 8 ETH added cost.
+
 Supply is 3. Bob mints 1. 8 ETH payout to Bob.
+
 Supply is 4. Bob mints 1. 4 ETH payout to Bob.
+
 Supply is 5. Bob mints 1. 0 ETH payout to Bob.
 
 However, minters only receive a payout if the vault's "ethBalance" (stored in the Vault struct) is sufficient to cover it. In other words, the first time that a supply increases from zero to its length there is no payout (assuming no ETH is deposited). 
